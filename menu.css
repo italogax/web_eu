@@ -1,0 +1,33 @@
+.center {
+    max-width: 1200px; /*Largura maxima.*/
+    margin: 0 auto; /*Margin dos links do div MENU.*/
+    padding: 0 2%; /*Preenchimento do div MENU.*/
+}
+
+.direita {
+    text-align: end;
+    padding-right: 30px;
+}
+
+
+#menu{
+    position: fixed; /*Possição fizada do header MENU.*/
+    left: 0; /*Possicionamento a esquecerda do header MENU.*/
+    top: 0; /*Possição acima do MENU.*/
+    width: 100%; /*Largura maxima do header MENU.*/
+    padding: 9px 0; /*preenchimento do header MENU.*/
+    text-align: center; /*Alinhamento do texto dentro do header MENU.*/
+    background: rgb(0, 0, 0); /*Coloração do header MENU.*/
+}
+
+header li{
+    display: inline-block; /*Mostrando links do MENU em linha.*/
+    margin: 0 10px; /*Margin dos links do MENU.*/
+    
+}
+header a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-decoration: none;
+    color: white; /*Coloração do link do MENU.*/
+}

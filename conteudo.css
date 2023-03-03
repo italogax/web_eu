@@ -1,0 +1,60 @@
+.conteudo{
+    height: 2000px;
+}
+
+section.content{
+
+    margin-top: 80px;
+}
+
+.conteudo p {
+    font-size: 25px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.conteudo h1{
+    font-size: 50px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.icongit{
+    text-align: end;
+    padding-right: 40px;
+    margin-bottom: 30px;
+    
+
+}
+
+.linkedin{
+    text-align: end;
+    padding-right: 40px;
+    margin-bottom: 30px;
+}
+
+#github{
+   max-width: 3%;
+   transition: all .5s;
+   border: 5px solid transparent;
+}
+
+#github:hover{
+    max-width: 4%;
+    border-radius: 50%;
+    border: 5px solid #000;
+
+}
+
+#linkedin{
+    max-width: 3%;
+    transition: all .5s;
+    border: 5px solid transparent;
+}
+
+#linkedin:hover{
+    max-width: 4%;
+    border-radius: 50%;
+    border: 5px solid #000;
+}
+
